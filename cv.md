@@ -22,7 +22,7 @@ At this moment I have very little experience in html/css layout sites and in JS
 ===========================================================================================
 ## *Additional Education*
 Innopolis University (course "Basics of front-end development")
-[1][https://innopolis.university/]
+[website][https://innopolis.university/]
 
 ===========================================================================================
 ## *Hobbies*
@@ -37,7 +37,7 @@ Photography and drawing in Adobe Illustrator
 
 ===========================================================================================
 
-## *Code example^
+## *Code example*
 ```
 function getSum(a, b) {
  return a + b
