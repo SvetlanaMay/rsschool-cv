@@ -1,5 +1,5 @@
 # **Svetlana Silina**
-![My photo](/svetla-min_photo-resizer.ru.jpg "This is me")
+![My photo](/images/svetla-min_photo-resizer.ru.jpg "This is me")
 
 =======================================================
 ## *Contacts* 
