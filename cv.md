@@ -1,8 +1,8 @@
 # **Svetlana Silina**
-![My photo](/svetla-min_photo-resizer.ru.jpg "This is me")
+![My photo](./assets/img/svetla-min_photo-resizer.ru.jpg "This is me")
 
 =======================================================
-## *Contacts* 
+## *Contacts*
 * email: svetlana.maistruk@gmail.com
 * Discord: Svetlana Silina#0299
 * GitHub: SvetlanaMay
@@ -44,16 +44,11 @@ function getSum(a, b) {
  }
  getSum(2, 3);
  ```
- 
+
 =======================================================
 ## *Languages*
 * English  - A2 (it's my opinion :)
 * Russian
-
-
- 
-
-
 
 
 
