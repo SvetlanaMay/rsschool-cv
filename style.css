@@ -107,8 +107,12 @@ body {
   line-height: 50px;
 }
 
+.section-profile__info {
+  display: flex;
+  flex-wrap: wrap;
+}
 .section-contacts__total {
-  width: calc(50% - 20px);
+  /* width: 48%; */
   padding: 20px;
   padding-bottom: 30px;
   border-bottom: 2px solid #b4ada6;
