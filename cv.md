@@ -1,9 +1,13 @@
 # **Svetlana Silina**
 # rsschool-cv
+
+![My photo](./assets//img/svetla-min_photo-resizer.ru.jpg "This is me")
+
 [link][https://svetlanamay.github.io/rsschool-cv/cv]
 
 
 [link][https://svetlanamay.github.io/rsschool-cv/]
+
 
 =======================================================
 ## *Contacts*
