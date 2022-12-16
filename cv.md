@@ -1,8 +1,12 @@
 # **Svetlana Silina**
-![My photo](/images/svetla-min_photo-resizer.ru.jpg "This is me")
+# rsschool-cv
+[link][https://svetlanamay.github.io/rsschool-cv/cv]
+
+
+[link][https://svetlanamay.github.io/rsschool-cv/]
 
 =======================================================
-## *Contacts* 
+## *Contacts*
 * email: svetlana.maistruk@gmail.com
 * Discord: Svetlana Silina#0299
 * GitHub: SvetlanaMay
@@ -44,16 +48,11 @@ function getSum(a, b) {
  }
  getSum(2, 3);
  ```
- 
+
 =======================================================
 ## *Languages*
 * English  - A2 (it's my opinion :)
 * Russian
-
-
- 
-
-
 
 
 
