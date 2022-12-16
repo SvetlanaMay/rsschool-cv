@@ -1,19 +1,18 @@
 /*!Шрифты*/
 
 @font-face {
- font-family: 'Raleway';
+  font-family: 'Raleway';
   src: url("assets/fonts/Raleway-ExtraLight.ttf");
   font-weight: 200;
 }
-
 @font-face {
- font-family: 'Raleway';
+  font-family: 'Raleway';
   src: url("assets/fonts/Raleway-Medium.ttf");
   font-weight: 500;
 }
 
 @font-face {
- font-family: 'Raleway';
+  font-family: 'Raleway';
   src: url("assets/fonts/Raleway-SemiBold.ttf");
   font-weight: 600;
 }
@@ -24,7 +23,6 @@ body {
   font-weight: 500;
   line-height: 50px;
 }
-
 a {
   text-decoration: none;
   color: #161412;
