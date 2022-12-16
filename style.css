@@ -6,23 +6,11 @@
   font-weight: 200;
 }
 
-/* @font-face {
- font-family: 'Raleway';
-  src: url("assets/fonts/Raleway-ExtraLightItalic.ttf");
-  font-weight: 200;
-} */
-
 @font-face {
  font-family: 'Raleway';
   src: url("assets/fonts/Raleway-Medium.ttf");
   font-weight: 500;
 }
-
-/* @font-face {
- font-family: 'Raleway';
-  src: url("assets/fonts/Raleway-MediumItalic.ttf");
-  font-weight: 500;
-} */
 
 @font-face {
  font-family: 'Raleway';
@@ -30,17 +18,16 @@
   font-weight: 600;
 }
 
-/* @font-face {
- font-family: 'Raleway';
-  src: url("assets/fonts/Raleway-SemiBoldItalic.ttf");
-  font-weight: 600;
-} */
-
 body {
   font-family: 'Raleway';
   font-size: 18px;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 50px;
+}
+
+a {
+  text-decoration: none;
+  color: #161412;
 }
 
 * {
@@ -75,7 +62,7 @@ body {
   padding: 0 12px;
   text-decoration: none;
   font-size: 20px;
-  font-weight: 300;
+  font-weight: 200;
   line-height: 50px;
   color: #ffffff
 }
@@ -95,7 +82,7 @@ body {
   margin-bottom: 20px;
   color: #33302d;
   font-size: 32px;
-  font-weight: 300;
+  font-weight: 200;
   letter-spacing: 10px;
   line-height: 50px;
 }
@@ -103,16 +90,22 @@ body {
 .section-profile__job {
   color: #33302d;
   font-size: 24px;
-  font-weight: 300;
+  font-weight: 200;
   line-height: 50px;
 }
 
 .section-profile__info {
   display: flex;
-  flex-wrap: wrap;
+  justify-content: space-between;
 }
-.section-contacts__total {
-  /* width: 48%; */
+
+.section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: calc(50% - 20px);
+}
+.section-contacts {
   padding: 20px;
   padding-bottom: 30px;
   border-bottom: 2px solid #b4ada6;
@@ -120,7 +113,7 @@ body {
 
 .section-contacts__title {
   margin-bottom: 20px;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 20px;
   letter-spacing: 5px;
   text-transform: uppercase;
@@ -132,4 +125,13 @@ body {
   padding: 0;
   list-style: none;
   color: #6e6255;
+}
+
+.section-contacts__item {
+  color: #b4ada6;
+  font-weight: 500;
+}
+
+.section-contacts__descr {
+
 }
