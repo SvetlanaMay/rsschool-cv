@@ -1,0 +1,179 @@
+/*!Шрифты*/
+
+@font-face {
+  font-family: 'Raleway';
+  src: url("assets/fonts/Raleway-ExtraLight.ttf");
+  font-weight: 200;
+}
+@font-face {
+  font-family: 'Raleway';
+  src: url("assets/fonts/Raleway-Medium.ttf");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'Raleway';
+  src: url("assets/fonts/Raleway-SemiBold.ttf");
+  font-weight: 600;
+}
+
+body {
+  font-family: 'Raleway';
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 50px;
+}
+a {
+  text-decoration: none;
+  color: #161412;
+}
+
+a:hover {
+  color: #412a14;
+  font-weight: bolder;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/*!Шапка*/
+
+.header {
+  background-color: #6e6255;
+  min-height: 50px;
+}
+
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.menu-list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+}
+
+.menu-item:hover {
+  border-top: 5px solid #412a14;
+  padding-top: 10px;
+}
+
+.menu-link {
+  padding: 0 12px;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 200;
+  line-height: 50px;
+  color: #ffffff
+}
+
+.menu-link:hover {
+  color: #412a14;
+  font-weight: bolder;
+}
+
+/*!Основной блок (аватар и ФИО)*/
+
+.section-profile {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  padding: 50px 30px 35px;
+  border-bottom: 5px solid #b4ada6;
+}
+
+.section-profile__name {
+  padding: 0;
+  margin-bottom: 20px;
+  color: #33302d;
+  font-size: 32px;
+  font-weight: 200;
+  letter-spacing: 10px;
+  line-height: 50px;
+}
+
+.section-profile__job {
+  color: #33302d;
+  font-size: 24px;
+  font-weight: 200;
+  line-height: 50px;
+  text-transform: uppercase;
+}
+
+/*! Шесть секций об авторе*/
+
+.section-profile__info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.section {
+  width: calc(50% - 30px);
+  border-bottom: 2px solid #b4ada6;
+}
+
+.section-contacts {
+  padding: 20px;
+  padding-bottom: 30px;
+}
+
+.section-title {
+  margin-bottom: 20px;
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: #6e6255;
+}
+
+.section-contacts__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  color: #6e6255;
+}
+
+.section-contacts__item {
+  color: #b4ada6;
+  font-weight: 500;
+}
+
+.section-contacts__descr {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+}
+.footer {
+  background-color: #6e6255;
+}
+
+.footer-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-info__mark {
+  color: #ffffff;
+  margin-right: 40px;
+}
+
+.footer-info__contact-link {
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  justify-content: space-between;
+  
+}
+
+.footer-info__school-link {
+  width: 121px;
+  height: 45px;
+  background-image: url(./assets//svg/logo_RSS.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
